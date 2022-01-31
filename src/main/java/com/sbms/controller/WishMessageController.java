@@ -18,6 +18,7 @@ public class WishMessageController {
 		String user ="Mohit";
 		log.info("Inside the WishMessageController getMsg method");
 		LocalDateTime ldt=LocalDateTime.now();
+		log.info("Inside the WishMessageController2222 getMsg method");
 		int hour=ldt.getHour();
 		if(hour<12)
 			return "Good Morning"+user;
